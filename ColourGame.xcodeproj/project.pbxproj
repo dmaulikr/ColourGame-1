@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C987D16153F1360972BE335 /* Pods_ColourGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE8229502CBE88CFC878D73 /* Pods_ColourGame.framework */; };
+		7D440F1C1C7DF51900939EA0 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D440F1B1C7DF51900939EA0 /* RandomColor.swift */; };
 		7D4EF9E31C77283500DCA381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4EF9E21C77283500DCA381 /* AppDelegate.swift */; };
 		7D4EF9E51C77283500DCA381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4EF9E41C77283500DCA381 /* ViewController.swift */; };
 		7D4EF9E81C77283500DCA381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4EF9E61C77283500DCA381 /* Main.storyboard */; };
 		7D4EF9EA1C77283600DCA381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4EF9E91C77283600DCA381 /* Assets.xcassets */; };
 		7D4EF9ED1C77283600DCA381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4EF9EB1C77283600DCA381 /* LaunchScreen.storyboard */; };
+		7D4EF9F51C77287E00DCA381 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4EF9F41C77287E00DCA381 /* UIColorHex.swift */; };
+		7D5B47DF1C7F036D00810DCD /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5B47DE1C7F036D00810DCD /* TipInCellAnimator.swift */; };
+		7DA3DEB01C8319380044C0C3 /* ColodieMono.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DFC0E3F1C83154000666CEB /* ColodieMono.caf */; };
+		7DA3DEB11C8319380044C0C3 /* ColodieLEI.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEA95861C83180D007A2798 /* ColodieLEI.caf */; };
+		7DA3DEB21C8319380044C0C3 /* ColodieconverterDeneme.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEA95851C831722007A2798 /* ColodieconverterDeneme.caf */; };
+		7DA3DEB51C831E6E0044C0C3 /* fail.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA3DEB31C831E6E0044C0C3 /* fail.caf */; };
+		7DA3DEB61C831E6E0044C0C3 /* success.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA3DEB41C831E6E0044C0C3 /* success.caf */; };
+		7DC8A21A1C870A1200F10088 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8A2191C870A1200F10088 /* LandingPageViewController.swift */; };
+		7DC8A21C1C8712B900F10088 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8A21B1C8712B900F10088 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4B404C45F64DDCF164466D /* Pods-ColourGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColourGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColourGame/Pods-ColourGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7D440F1B1C7DF51900939EA0 /* RandomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 		7D4EF9DF1C77283500DCA381 /* ColourGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4EF9E21C77283500DCA381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4EF9E41C77283500DCA381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		7D4EF9E91C77283600DCA381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4EF9EC1C77283600DCA381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D4EF9EE1C77283600DCA381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4EF9F41C77287E00DCA381 /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		7D5B47DE1C7F036D00810DCD /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimator.swift; sourceTree = "<group>"; };
+		7DA3DEB31C831E6E0044C0C3 /* fail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fail.caf; sourceTree = "<group>"; };
+		7DA3DEB41C831E6E0044C0C3 /* success.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.caf; sourceTree = "<group>"; };
+		7DC8A2191C870A1200F10088 /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		7DC8A21B1C8712B900F10088 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7DEA95851C831722007A2798 /* ColodieconverterDeneme.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ColodieconverterDeneme.caf; sourceTree = "<group>"; };
+		7DEA95861C83180D007A2798 /* ColodieLEI.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ColodieLEI.caf; sourceTree = "<group>"; };
+		7DFC0E3F1C83154000666CEB /* ColodieMono.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ColodieMono.caf; sourceTree = "<group>"; };
+		BAE8229502CBE88CFC878D73 /* Pods_ColourGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColourGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEE99F2C26D393B434C2163 /* Pods-ColourGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColourGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColourGame/Pods-ColourGame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C987D16153F1360972BE335 /* Pods_ColourGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD07A180A5DB39B570B56BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B404C45F64DDCF164466D /* Pods-ColourGame.debug.xcconfig */,
+				BFEE99F2C26D393B434C2163 /* Pods-ColourGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D440EF91C7B009E00939EA0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA3DEB31C831E6E0044C0C3 /* fail.caf */,
+				7DA3DEB41C831E6E0044C0C3 /* success.caf */,
+				7DFC0E3F1C83154000666CEB /* ColodieMono.caf */,
+				7DEA95861C83180D007A2798 /* ColodieLEI.caf */,
+				7DEA95851C831722007A2798 /* ColodieconverterDeneme.caf */,
+				7D4EF9F41C77287E00DCA381 /* UIColorHex.swift */,
+				7D4EF9E91C77283600DCA381 /* Assets.xcassets */,
+				7D4EF9EB1C77283600DCA381 /* LaunchScreen.storyboard */,
+				7D4EF9EE1C77283600DCA381 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 		7D4EF9D61C77283500DCA381 = {
 			isa = PBXGroup;
 			children = (
 				7D4EF9E11C77283500DCA381 /* ColourGame */,
 				7D4EF9E01C77283500DCA381 /* Products */,
+				2CD07A180A5DB39B570B56BF /* Pods */,
+				B9647BEFD73798C2764B6665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,23 @@
 			isa = PBXGroup;
 			children = (
 				7D4EF9E21C77283500DCA381 /* AppDelegate.swift */,
+				7D440F1B1C7DF51900939EA0 /* RandomColor.swift */,
+				7D5B47DE1C7F036D00810DCD /* TipInCellAnimator.swift */,
 				7D4EF9E41C77283500DCA381 /* ViewController.swift */,
 				7D4EF9E61C77283500DCA381 /* Main.storyboard */,
-				7D4EF9E91C77283600DCA381 /* Assets.xcassets */,
-				7D4EF9EB1C77283600DCA381 /* LaunchScreen.storyboard */,
-				7D4EF9EE1C77283600DCA381 /* Info.plist */,
+				7DC8A21B1C8712B900F10088 /* SettingsViewController.swift */,
+				7DC8A2191C870A1200F10088 /* LandingPageViewController.swift */,
+				7D440EF91C7B009E00939EA0 /* Files */,
 			);
 			path = ColourGame;
+			sourceTree = "<group>";
+		};
+		B9647BEFD73798C2764B6665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE8229502CBE88CFC878D73 /* Pods_ColourGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D4EF9F11C77283600DCA381 /* Build configuration list for PBXNativeTarget "ColourGame" */;
 			buildPhases = (
+				BE6E63C7A1C39AD13961C329 /* Check Pods Manifest.lock */,
 				7D4EF9DB1C77283500DCA381 /* Sources */,
 				7D4EF9DC1C77283500DCA381 /* Frameworks */,
 				7D4EF9DD1C77283500DCA381 /* Resources */,
+				E19073CBD82F7D6D0CD699AF /* Embed Pods Frameworks */,
+				1A125FB715EB40007BF52F9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,7 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA3DEB01C8319380044C0C3 /* ColodieMono.caf in Resources */,
+				7DA3DEB11C8319380044C0C3 /* ColodieLEI.caf in Resources */,
+				7DA3DEB51C831E6E0044C0C3 /* fail.caf in Resources */,
+				7DA3DEB21C8319380044C0C3 /* ColodieconverterDeneme.caf in Resources */,
 				7D4EF9ED1C77283600DCA381 /* LaunchScreen.storyboard in Resources */,
+				7DA3DEB61C831E6E0044C0C3 /* success.caf in Resources */,
 				7D4EF9EA1C77283600DCA381 /* Assets.xcassets in Resources */,
 				7D4EF9E81C77283500DCA381 /* Main.storyboard in Resources */,
 			);
@@ -130,11 +200,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A125FB715EB40007BF52F9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColourGame/Pods-ColourGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6E63C7A1C39AD13961C329 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E19073CBD82F7D6D0CD699AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColourGame/Pods-ColourGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D4EF9DB1C77283500DCA381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D440F1C1C7DF51900939EA0 /* RandomColor.swift in Sources */,
+				7DC8A21A1C870A1200F10088 /* LandingPageViewController.swift in Sources */,
+				7DC8A21C1C8712B900F10088 /* SettingsViewController.swift in Sources */,
+				7D4EF9F51C77287E00DCA381 /* UIColorHex.swift in Sources */,
+				7D5B47DF1C7F036D00810DCD /* TipInCellAnimator.swift in Sources */,
 				7D4EF9E51C77283500DCA381 /* ViewController.swift in Sources */,
 				7D4EF9E31C77283500DCA381 /* AppDelegate.swift in Sources */,
 			);
@@ -245,6 +368,7 @@
 		};
 		7D4EF9F21C77283600DCA381 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4B404C45F64DDCF164466D /* Pods-ColourGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColourGame/Info.plist;
@@ -256,6 +380,7 @@
 		};
 		7D4EF9F31C77283600DCA381 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEE99F2C26D393B434C2163 /* Pods-ColourGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColourGame/Info.plist;
@@ -284,6 +409,7 @@
 				7D4EF9F31C77283600DCA381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
